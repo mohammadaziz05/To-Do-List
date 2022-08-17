@@ -55,6 +55,6 @@ function checkDelete(e){
     }  
     else{
         const todo = item.parentElement;
-        todo.classList.add("completed");
+        todo.classList.toggle("completed");
     }
 }
